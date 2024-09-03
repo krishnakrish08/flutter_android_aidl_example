@@ -1,0 +1,1 @@
+# flutter_android_aidl_example
