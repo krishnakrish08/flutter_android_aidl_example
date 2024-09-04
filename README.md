@@ -1,6 +1,6 @@
 # flutter_android_aidl_example
 
-A new Flutter project.
+A new Flutter project. This project is under development. I will update it soon
 
 ## Getting Started
 
