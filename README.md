@@ -1,6 +1,24 @@
 # flutter_android_aidl_example
 
-A new Flutter project. This project is under development. I will update it soon
+It is AIDL Example app in Flutter. 
+Steps to generate AIDL folder in Android
+
+1. Create a new file named IMyAidlInterface.aidl app/src/main/{packageName}/IMyAidlInterface.aidl directory.
+2. add below code in app.gradle
+   android {
+    ...
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src']
+        }
+    }
+  }
+3. add below line in gradle.properties
+   android.defaults.buildfeatures.aidl=true
+
+4. run the code after flutter clean and flutter pub get commands executed
+
+
 
 ## Getting Started
 
