@@ -18,6 +18,13 @@ Steps to generate AIDL folder in Android
 
 4. run the code after flutter clean and flutter pub get commands executed
 
+## AIDL 
+
+1. Define the AIDL Interface: This is where you define the methods that will be available for IPC.
+2. Implement the AIDL Interface: This is where you provide the actual implementation of the methods defined in the AIDL interface.
+3. Bind the Service: This is where you bind the service in your Android app so that it can be accessed from other processes.
+4. Communicate from Flutter: This is where you use platform channels to communicate between Flutter and the native Android code.
+
 
 
 ## Getting Started
